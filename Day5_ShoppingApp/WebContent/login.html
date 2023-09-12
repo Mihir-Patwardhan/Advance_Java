@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inventory Management</title>
+</head>
+<style>
+body{
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form1{
+    margin: auto;
+    border: bisque solid 5px;
+    position: relative;
+    top: 80px;
+    border-radius: 50px;
+    width: 45%;
+    height: 14rem;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+}
+.form2{
+    margin: auto;
+    position: relative;
+    color: black;
+    bottom: 35px;
+}
+</style>
+<h1>Inventory Management Login</h1>
+<form class="form1" action="validate" method='post' >
+    <center><table>
+        <caption><strong>Login</strong></caption>
+        <tr>
+            <td>Username</td>
+            <td> <input type="text" name="txtname"> </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="txtpwd">
+            </td>
+        </tr>
+     </table>
+</center>
+<tr>
+    <td><center><input type="submit" value="Login"></center></td>
+</tr>
+</form>
+<form class="form2" action="Register">
+    <p><strong>Don't have an account ?</strong></p>
+<input type="submit" name="submit" value="Register"/>
+</form>
+
+</body>
+
+</html>
